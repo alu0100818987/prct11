@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{historia del n\IeC {\'u}mero $\pi $}{2}{0}{1}
+\beamer@sectionintoc {2}{Historia del valor $\pi $}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Antiguo Egipcio}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Antigua Mesopot\IeC {\'a}nia}{3}{0}{2}
