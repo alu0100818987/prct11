@@ -16,14 +16,14 @@
 
 
 \begin{abstract}
-El objetivo de este documento es saber más sobre el número $\pi$ y exponerlo en un pdf con \LaTeX{}~\cite{LaTeXpg} en la universidad (figura)~\ref{et:graf} .
+El objetivo de este documento es saber más sobre el número $\pi$ y exponerlo en un pdf con beamer{}~\cite{guia} en la universidad (figura)~\ref{et:graf} .
 \end{abstract}
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \begin{frame}
 \section{historia del número $\pi$}
-$\pi${}~\cite{PIpg} es un número irracional, cociente entre la longitud de la circunferencia y la longitud
+$\pi$ es un número irracional, cociente entre la longitud de la circunferencia y la longitud
 de su diámetro. Se emplea frecuentemente en matemáticas, física e ingeriería. El valor numérico
 de $\pi$ truncado a sus diez primeras posiciones decimales, es el siguiente: 3,1415926535...o
 Dividiend
@@ -42,6 +42,20 @@ Algunas aproximaciones históricas de $\pi$ son las siguientes:
 
 \end{frame}
 
+\begin{frame}
+  \frametitle{Bibliografía}
 
+  \begin{thebibliography}{10}
+   
+  \end{thebibliography}
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía beamer]{guia}  
+    Guía Beamer. 
+    {\small $http://www4.ujaen.es/~jmmoreno/latex/clatex2.pdf$}
+
+
+   \end{thebibliography}
+\end{frame}
 %+++++++++++++++++++++++++++++++++++++
 \end{document}

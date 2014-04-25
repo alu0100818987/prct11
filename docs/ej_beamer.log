@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.25)  25 APR 2014 10:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.25)  25 APR 2014 10:43
 entering extended mode
  %&-line parsing enabled.
 **ej_beamer.tex
@@ -1052,9 +1052,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
-LaTeX Warning: Citation `LaTeXpg' on page 1 undefined on input line 21.
-
-
 LaTeX Warning: Reference `et:graf' on page 1 undefined on input line 21.
 
 
@@ -1094,6 +1091,72 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [3
 
 ]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 59.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \end{frame}
+                
+? 
+
+Underfull \hbox (badness 10000) detected at line 59
+[][]
+ []
+
+
+! LaTeX Error: \begin{beamer@frameslide} on input line 59 ended by \end{beamer@
+framepauses}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \end{frame}
+                
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.59 \end{frame}
+                
+? 
+! Too many }'s.
+\endbeamer@frameslide ...amer@framepauses}\egroup 
+                                                  \ifx \beamer@frametitle \@...
+l.59 \end{frame}
+                
+? 
+! Undefined control sequence.
+\endbeamer@frameslide ...box \else \beamer@zoomer 
+                                                  \fi \beamer@undolabels \be...
+l.59 \end{frame}
+                
+? 
+
+! LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \end{frame}
+                
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.59 \end{frame}
+                
+? 
+[4
+
+]
 \tf@nav=\write6
 \openout6 = `ej_beamer.nav'.
 
@@ -1111,13 +1174,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15107 strings out of 495061
- 275336 string characters out of 1182621
+ 15166 strings out of 495061
+ 276828 string characters out of 1182621
  346424 words of memory out of 3000000
- 17879 multiletter control sequences out of 15000+50000
- 13607 words of font info for 51 fonts, out of 3000000 for 9000
+ 17934 multiletter control sequences out of 15000+50000
+ 13914 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,53p,425b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{et:graf} has been referenced but does not exist, 
@@ -1129,9 +1195,9 @@ ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on ej_beamer.pdf (3 pages, 71875 bytes).
+Output written on ej_beamer.pdf (4 pages, 79792 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
